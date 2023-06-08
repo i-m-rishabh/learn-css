@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+}
+header nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    overflow: hidden;
+}
+header nav .logo{
+
+}
+header nav ul{
+    display: flex;
+    margin: 0 2rem;
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 1rem;
+}
+header nav .search{
+    /* margin: 0 auto; */
+    display: flex;
+    margin-left: auto;
+    overflow: hidden;
+}
+header nav .search input{
+    padding: 0.1rem;
+    width: 30vw;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+header nav .search input:hover{
+    background-color: red;
+}
+header nav .search label{
+    position: relative;
+    top:0.2rem;
+    left: 0.3rem;
+}
+.content{
+    /* background-color: red; */
+}
+.content .slider{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.content .slider img{
+    width: 80%;
+    max-width: 500px;
+    overflow: hidden;
+}
+.content .collections{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+.content .collections .collection{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.content .collections .collection h2{
+    margin: 1vw 3vw;
+}
+
+.content .collections .collection .cards{
+    display: flex;
+    /* justify-content: space-around; */
+    overflow:auto;
+}
+.content .collections .collection .cards .card-item{
+    margin: 0 2vw;
+}
+.content .collections .collection .cards .card-item img{
+    /* max-width: 40vw; */
+    max-width: 300px;
+    width: 30vw;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
